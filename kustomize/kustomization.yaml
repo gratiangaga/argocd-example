@@ -7,8 +7,4 @@ resources:
   - argo-apps/argocd.yaml
   - argo-apps/someapp.yaml
 
-patches:
-  - patches/argocd-server.yaml
-  - patches/labels.yaml
-
 namespace: argocd
